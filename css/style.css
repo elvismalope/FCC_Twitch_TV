@@ -7,41 +7,72 @@ body {
 
 
 .content-container {
-  background-color: green;
+  background-color: #E64A19;
   padding: 0px;
 }
 
 .content-header {
-  text-align:left;
   padding: 5px;
 }
 
-.content-header > h1 {
-  padding-left: 30px;
+.content-header-title {
+  padding-left: 20px;
+  padding-bottom: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: left;
 }
-.streamer-logo {
+
+.streams {
+
+}
+
+.streams > ul {
+  padding: 0px;
+}
+
+.stream {
+  padding: 5px;
+  vertical-align: middle;
+}
+.stream-light {
+  border-style: solid;
+  border-width: 1px 0px;
+  border-color: #FFFFFF;
+  background-color: #303F9F;
+}
+
+.stream-dark {
+  border-style: solid;
+  border-width: 1px 0px;
+  border-color: #FFFFFF;
+  background-color: #757575;
+}
+
+.stream-logo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-.streamer {
-  display: inline;
+  border: 2px solid #FFFFFF;
 }
 
-.streamer-text {
-  margin: auto;
-  vertical-align: middle;
+.stream-name {
+  line-height: 50px;
 }
+
+.stream-name > a {
+	color:#FFFFFF;
+}
+
+.stream-text {
+  line-height: 50px;
+}
+
+
 
 .search-bar {
 	padding: 30px 5px;
 	max-width: 500px;
 	margin: auto;
-}
-
-.search-bar > h4 > a {
-	color:#FFFFFF;
-	text-decoration: none;
 }
 
 .search-results > ul > li {
